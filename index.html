@@ -14,26 +14,23 @@
       background-size: contain;
       background-color: #000;
       color: #00ff00;
-      font-size: 16px;
       user-select: none;
       height: 100vh;
       overflow-y: auto;
-      text-shadow: 0 0 2px #00ff00;
+      text-shadow: 0 0 5px #00ff00;
     }
-    h1, h2 {
-      color: #7CFC00;
-      text-shadow: 0 0 6px #7CFC00;
+    h1, h2, h3 {
       border-bottom: 1px solid #00ff00;
       padding-bottom: 5px;
     }
     .button {
-      background: rgba(0, 0, 0, 0.8);
+      background: rgba(0, 0, 0, 0.7);
       color: #00ff00;
       border: 1px solid #00ff00;
       padding: 10px 15px;
       margin: 5px;
       cursor: pointer;
-      font-size: 15px;
+      user-select: none;
       transition: all 0.3s ease;
     }
     .button:hover {
@@ -42,21 +39,9 @@
     }
     .section {
       margin-top: 30px;
-      background: rgba(0,0,0,0.7);
+      background: rgba(0,0,0,0.6);
       padding: 15px;
       border-radius: 8px;
-    }
-    .highlight {
-      color: #00ff99;
-      font-weight: bold;
-      text-shadow: 0 0 5px #00ff99;
-    }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    ul li {
-      margin-bottom: 10px;
     }
     footer {
       margin-top: 50px;
@@ -65,18 +50,29 @@
       font-size: 14px;
       background: rgba(0,0,0,0.6);
       border-radius: 8px;
-      color: #00ff88;
+    }
+    .highlight {
+      color: #7CFC00;
+      font-weight: bold;
+      text-shadow: 0 0 10px #7CFC00;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 8px;
     }
   </style>
   <script>
     function showLoading() {
-      alert("Fitur sedang dimuat...");
+      alert("LOADING");
     }
   </script>
 </head>
 <body>
   <h1>MeyStore - Panel Control v1.8</h1>
-  <p>Status: <span class="highlight">CONNECTED</span></p>
+  <p>Status: <span class="highlight">Connected</span></p>
 
   <div class="section">
     <h2>Tombol Kontrol</h2>
@@ -88,28 +84,28 @@
     <button class="button" onclick="showLoading()">Transfer Dana</button>
     <button class="button" onclick="showLoading()">Riwayat</button>
     <button class="button" onclick="showLoading()">Refresh</button>
-    <p style="margin-top: 20px;"><strong class="highlight">TARGET HACKED</strong></p>
+    <p style="margin-top: 20px;"><strong>TARGET HACKED</strong></p>
   </div>
 
   <div class="section">
     <h2>Informasi Perangkat</h2>
-    <p>OS: <span class="highlight">Android 13</span></p>
-    <p>Model: <span class="highlight">Xiaomi 12 Pro</span></p>
-    <p>Browser: <span class="highlight">Chrome 156.3.6482.923</span></p>
+    <p>OS: Android 13</p>
+    <p>Model: Xiaomi 12 Pro</p>
+    <p>Browser: Chrome 156.3.6482.923</p>
   </div>
 
   <div class="section">
     <h2>Lokasi</h2>
-    <p>IP: <span class="highlight">192.168.1.**</span></p>
-    <p>GPS: <span class="highlight">**.22****, **.29****</span></p>
-    <p>Lokasi: <span class="highlight">Jakarta, Indonesia</span></p>
+    <p>IP: 192.168.1.**</p>
+    <p>GPS: **.22****, **.29****</p>
+    <p>Lokasi: Jakarta, Indonesia</p>
   </div>
 
   <div class="section">
     <h2>Data Akun Free Fire 👾</h2>
     <ul>
-      <li>Email: <span class="highlight">67gunawan@gmail.com</span><br>Password: <span class="highlight">gunawan150603</span></li>
-      <li>Email: <span class="highlight">kadalberenang012@gmail.com</span><br>Password: <span class="highlight">gunawan150603</span></li>
+      <li>Email: 67gunawan@gmail.com<br>Password: gunawan150603</li>
+      <li>Email: kadalberenang012@gmail.com<br>Password: gunawan150603</li>
     </ul>
   </div>
 
