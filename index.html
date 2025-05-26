@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <title>Zyck - PANEL BOBOL v1.3</title>
+  <title>MeyStore - PANEL BOBOL v1.3</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
     body {
@@ -13,23 +14,26 @@
       background-size: contain;
       background-color: #000;
       color: #00ff00;
+      font-size: 16px;
       user-select: none;
       height: 100vh;
       overflow-y: auto;
-      text-shadow: 0 0 5px #00ff00;
+      text-shadow: 0 0 2px #00ff00;
     }
-    h1, h2, h3 {
+    h1, h2 {
+      color: #7CFC00;
+      text-shadow: 0 0 6px #7CFC00;
       border-bottom: 1px solid #00ff00;
       padding-bottom: 5px;
     }
     .button {
-      background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.8);
       color: #00ff00;
       border: 1px solid #00ff00;
       padding: 10px 15px;
       margin: 5px;
       cursor: pointer;
-      user-select: none;
+      font-size: 15px;
       transition: all 0.3s ease;
     }
     .button:hover {
@@ -38,9 +42,21 @@
     }
     .section {
       margin-top: 30px;
-      background: rgba(0,0,0,0.6);
+      background: rgba(0,0,0,0.7);
       padding: 15px;
       border-radius: 8px;
+    }
+    .highlight {
+      color: #00ff99;
+      font-weight: bold;
+      text-shadow: 0 0 5px #00ff99;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
     }
     footer {
       margin-top: 50px;
@@ -49,29 +65,18 @@
       font-size: 14px;
       background: rgba(0,0,0,0.6);
       border-radius: 8px;
-    }
-    .highlight {
-      color: #7CFC00;
-      font-weight: bold;
-      text-shadow: 0 0 10px #7CFC00;
-    }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    ul li {
-      margin-bottom: 8px;
+      color: #00ff88;
     }
   </style>
   <script>
     function showLoading() {
-      alert("LOADING");
+      alert("Fitur sedang dimuat...");
     }
   </script>
 </head>
 <body>
-  <h1>ZyckStore - Panel Control v1.8</h1>
-  <p>Status: <span class="highlight">Connected</span></p>
+  <h1>MeyStore - Panel Control v1.8</h1>
+  <p>Status: <span class="highlight">CONNECTED</span></p>
 
   <div class="section">
     <h2>Tombol Kontrol</h2>
@@ -83,43 +88,36 @@
     <button class="button" onclick="showLoading()">Transfer Dana</button>
     <button class="button" onclick="showLoading()">Riwayat</button>
     <button class="button" onclick="showLoading()">Refresh</button>
-    <p style="margin-top: 20px;"><strong>TARGET HACKED</strong></p>
+    <p style="margin-top: 20px;"><strong class="highlight">TARGET HACKED</strong></p>
   </div>
 
   <div class="section">
     <h2>Informasi Perangkat</h2>
-    <p>OS: Android 13</p>
-    <p>Model: Samsung GALAXY A52</p>
-    <p>Browser: Chrome 114.0.5735.191</p>
+    <p>OS: <span class="highlight">Android 13</span></p>
+    <p>Model: <span class="highlight">Xiaomi 12 Pro</span></p>
+    <p>Browser: <span class="highlight">Chrome 156.3.6482.923</span></p>
   </div>
 
   <div class="section">
     <h2>Lokasi</h2>
-    <p>IP: 192.168.1.**</p>
-    <p>GPS: -6.17****, 106.82****</p>
-    <p>Lokasi: Lampung, Indonesia</p>
-  </div>
-
-  <div class="section">
-    <h2>Informasi Jaringan</h2>
-    <p>ISP: PT Telkom Indonesia</p>
-    <p>WiFi: HomeWiFi_5G (WPA2)</p>
-    <p>MAC: 00:1A:2B:*:*:*</p>
+    <p>IP: <span class="highlight">192.168.1.**</span></p>
+    <p>GPS: <span class="highlight">**.22****, **.29****</span></p>
+    <p>Lokasi: <span class="highlight">Jakarta, Indonesia</span></p>
   </div>
 
   <div class="section">
     <h2>Data Akun Free Fire 👾</h2>
     <ul>
-      <li>Email: jbrahmat878amanah@gmail.com<br>Password: Rahmatstok878</li>
-      <li>Email: tuanmudaff192@gmail.com<br>Password: nanda#Aman00</li>
+      <li>Email: <span class="highlight">67gunawan@gmail.com</span><br>Password: <span class="highlight">gunawan150603</span></li>
+      <li>Email: <span class="highlight">kadalberenang012@gmail.com</span><br>Password: <span class="highlight">gunawan150603</span></li>
     </ul>
   </div>
 
   <footer>
     Copyright © 2025<br />
-    Dibuat oleh: ZyckStore<br />
+    Dibuat oleh: MeyStore<br />
     System Version: 1.5.2<br />
-    Last Update: 24/05/2025 14:37:42 UTC
+    Last Update: 25/05/2025 04:52:22 UTC
   </footer>
 </body>
 </html>
